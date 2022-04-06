@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITableViewDataSource
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
         cell.textLabel?.text = animalNames[indexPath.row]
         return cell
-    }
+    } 
 
 }
 
