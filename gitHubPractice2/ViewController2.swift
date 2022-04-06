@@ -21,7 +21,7 @@ class ViewController2: UIViewController {
 
         nameLabel.text = "\(animal)"
         
-      //  UIImageView.image = UIImage(named: "\(animal)")
+        UIImageView.image = UIImage(named: "\(animal)")
         // Do any additional setup after loading the view.
     }
     
