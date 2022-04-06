@@ -22,14 +22,10 @@ class ViewController: UIViewController, UITableViewDataSource
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
+        guard let selectedRow = tableView.indexPathForSelectedRow?.row else { return }
         let nvc =  segue.destination as! ViewController2
-        nvc.animal = "Zebra"
-    
-        guard let selectedRow = tableView.indexPathForSelectedRow?.row else
-        {
-            return
+        nvc.animal = animalNames[selectedRow]
         }
-    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
