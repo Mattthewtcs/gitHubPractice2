@@ -9,9 +9,19 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+  let animal = ""
+ 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        nameLabel.text = "\(animal)"
+        
+      //  UIImageView.image = UIImage(named: "\(animal)")
         // Do any additional setup after loading the view.
     }
     
