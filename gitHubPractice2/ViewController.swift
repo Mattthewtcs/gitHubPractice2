@@ -20,7 +20,16 @@ class ViewController: UIViewController, UITableViewDataSource
         tableView.dataSource = self
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let nvc =  segue.destination as! ViewController2
+        nvc.animal = "Zebra"
     
+        guard let selectedRow = tableView.indexPathForSelectedRow?.row else
+        {
+            return
+        }
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {

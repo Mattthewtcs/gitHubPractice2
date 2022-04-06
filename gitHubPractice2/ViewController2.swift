@@ -12,7 +12,7 @@ class ViewController2: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
-  let animal = ""
+  var animal = ""
  
     
     
