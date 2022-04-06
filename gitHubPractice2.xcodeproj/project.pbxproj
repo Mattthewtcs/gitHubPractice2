@@ -13,6 +13,7 @@
 		724B860327FE05580029FB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724B860127FE05580029FB63 /* Main.storyboard */; };
 		724B860527FE055A0029FB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724B860427FE055A0029FB63 /* Assets.xcassets */; };
 		724B860827FE055A0029FB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724B860627FE055A0029FB63 /* LaunchScreen.storyboard */; };
+		724B861027FE06C40029FB63 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724B860F27FE06C40029FB63 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		724B860427FE055A0029FB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		724B860727FE055A0029FB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		724B860927FE055A0029FB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724B860F27FE06C40029FB63 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				724B85FD27FE05580029FB63 /* SceneDelegate.swift */,
 				724B85FF27FE05580029FB63 /* ViewController.swift */,
 				724B860127FE05580029FB63 /* Main.storyboard */,
+				724B860F27FE06C40029FB63 /* ViewController2.swift */,
 				724B860427FE055A0029FB63 /* Assets.xcassets */,
 				724B860627FE055A0029FB63 /* LaunchScreen.storyboard */,
 				724B860927FE055A0029FB63 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				724B860027FE05580029FB63 /* ViewController.swift in Sources */,
+				724B861027FE06C40029FB63 /* ViewController2.swift in Sources */,
 				724B85FC27FE05580029FB63 /* AppDelegate.swift in Sources */,
 				724B85FE27FE05580029FB63 /* SceneDelegate.swift in Sources */,
 			);
